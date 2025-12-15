@@ -1,0 +1,52 @@
+
+.leftside video{
+    width: 100%;
+    border-radius: 10px;
+}
+.hero{
+    margin-top: 5rem;
+    /* margin-left: 10rem; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.porlos{
+    font-size: 6rem;
+    font-weight: 700;
+    color: var(--white);
+}
+.profitloss{
+    margin-top: 2rem;
+    margin-left: 7rem;
+}
+.prolospara{
+    font-size: 1.7rem;
+    color: var(--white);
+    padding: 10px 0;
+}
+@media (min-width:320px) and (max-width:480px){
+    .hero{
+        margin-top: 5rem;
+    }
+    .leftside video{
+        width: 100%;
+        margin-left: 0px;
+        border-radius: 10px;
+    }
+    .porlos{
+        padding: 10px 0;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+    .profitloss{
+        margin-top: 2rem;
+        margin-left: 1rem;
+        margin-bottom: 5rem;
+    }
+    .prolospara{
+        padding: 15px 0;
+    }
+    .leftside{
+        order: 2;
+    }
+}

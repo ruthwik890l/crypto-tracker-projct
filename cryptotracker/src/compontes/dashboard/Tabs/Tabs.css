@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif; /* Apply Poppins as default font */
+}
+
+.tab-container {
+  width: 100%;
+}
+
+.tab-list {
+  display: flex;
+  border-bottom: 2px solid #3a80e9; /* Primary color border */
+}
+
+.MuiTab-root {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: var(--white); /* Ensure var(--white) is defined */
+  text-transform: capitalize;
+  font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.MuiTab-root:hover {
+  background-color: rgba(58, 128, 233, 0.2); /* Light background on hover */
+}
+
+.MuiTab-root.Mui-selected {
+  background-color: transparent; /* No color for the selected tab */
+  color: var(--white); /* Maintain text color */
+}
+
+.tab-panel {
+  padding: 20px;
+}
+
+.grid-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1.5rem;
+}
+
+.list-table {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .list-table {
+    width: 95%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .list-table {
+    width: 100%;
+  }
+}

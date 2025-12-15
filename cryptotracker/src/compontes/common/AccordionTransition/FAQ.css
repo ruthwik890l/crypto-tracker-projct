@@ -1,0 +1,27 @@
+.faq-container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.faq-title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 4rem;
+    color: var(--white);
+}
+
+.faq-question {
+    color: var(--black);
+    font-size: 20px; /* Increased size for questions */
+    font-weight: bold;
+}
+
+.faq-answer {
+    color: var(--black);
+}
+
+.faq-question {
+    font-size: 20px;
+}

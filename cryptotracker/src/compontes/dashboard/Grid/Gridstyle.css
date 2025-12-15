@@ -1,0 +1,124 @@
+.grid-container{
+    width: 300px;
+    /* height: 300px; */
+    background-color: var(--darkgrey);
+    border: 2px solid var(--darkgrey);
+    border-radius: 1.5rem;
+    padding: 20px 10px;
+}
+.grid-container:hover{
+    border-color: var(--green);
+    transition: all 0.3s;
+}
+.grid-container-red:hover{
+    border-color: var(--red);
+}
+.info-flex{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 1rem 1.5rem;
+}
+.coin-image{
+    height: 5.5rem;
+    width: 5.5rem;
+}
+.coin-symbol{
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 2.2rem;
+    margin: 0;
+}
+.coin-name{
+    color: var(--white);
+    text-transform: uppercase;
+    font-weight: light;
+    font-size: 1.5rem;
+    margin: 0;
+}
+.name-col{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.chip-flex{
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+    align-items: center;
+    margin: 1rem 1.5rem;
+}
+.price-chip{
+    margin-top: 1rem;
+    border: 2px solid var(--green);
+    border-radius: 2rem;
+    padding: 0.75rem 1.95rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--green);
+    min-width: 100px;
+}
+.price-chip:hover{
+    background-color:var(--green) ;
+    color: var(--white);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.chip-red{
+    border: 2px solid var(--red);
+    color: var(--red);
+}
+.chip-red:hover{
+    background-color:var(--red) ;
+    color: var(--white);
+    transition: all 0.3s;
+}
+.icon-chip{
+    margin-top: 1rem;
+    border: 2px solid var(--green);
+    border-radius: 50%;
+    /* padding: 0.75rem 1.95rem; */
+    height: 4rem !important;
+    width: 4rem !important;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    color: var(--green);
+}
+.icon-chip:hover{
+    background-color:var(--green) ;
+    color: var(--white);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.cheap-red{
+    color: var(--red);
+    border: 2px solid var(--red);
+}
+
+.cheap-red:hover{
+    background-color:var(--red) ;
+    color: var(--white);
+    transition: all 0.3s;
+}
+.info-container{
+    margin: 1.7rem;
+}
+.info-container h3{
+    color: var(--green);
+    font-size: 1.7rem;
+    font-weight: 600;
+    padding: 4px 0;
+}
+.total-volume{
+    color: var(--white);
+    font-weight:500 ;
+    font-size: 1.3rem;
+    padding: 5px 0;
+}

@@ -1,0 +1,192 @@
+.container {
+    padding: 5rem 15rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+@media (min-width:320px) and (max-width:480px){
+    .container{
+        padding: 0;
+    }
+}
+.about {
+    font-size: 4rem;
+    text-align: center;
+    color: var(--white);
+}
+
+.welcome h2 {
+    font-size: 2.5rem;
+    padding: 5px;
+    color: var(--blue);
+}
+
+.welcome p {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.vision h2 {
+    font-size: 2.5rem;
+    padding: 5px;
+    color: var(--blue);
+}
+
+.vision p {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.whatweoff h2 {
+    font-size: 2.5rem;
+    padding: 5px;
+    color: var(--blue);
+}
+
+.whatweoff p {
+    font-size: 1.6rem;
+    color: var(--white);
+}
+
+.commetment h2 {
+    font-size: 2.5rem;
+    padding: 5px;
+    color: var(--blue);
+}
+
+.commetment p {
+    font-size: 2rem;
+    color: var(--white);
+    margin-bottom: 5rem;
+}
+
+/* ContactUs.css */
+
+.contain {
+    background-color: var(--darkgrey);
+    max-width: 1170px;
+    margin: auto;
+    padding: 1em;
+}
+
+.form {
+    background-color: var(--darkgrey);
+}
+
+.form-headline::after {
+    content: "";
+    display: block;
+    width: 10%;
+    padding-top: 10px;
+    border-bottom: 3px solid var(--blue);
+}
+
+.highlight-text {
+    color: var(--blue);
+}
+
+.highlight-text-grey {
+    font-weight: 500;
+}
+
+.hightlight-contact-info {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.email-info {
+    margin-top: 20px;
+}
+
+.form-input:focus,
+textarea:focus {
+    outline: 1.5px solid var(--blue);
+}
+
+.form-input,
+textarea {
+    width: 85%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: var(--white);
+    margin: 1rem;
+    color: var(--black);
+}
+
+.wrapper>* {
+    padding: 1em;
+}
+
+@media (min-width: 700px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .wrapper>* {
+        padding: 2em 2em;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+li{
+    font-size: 2rem;
+}
+
+.contacts {
+    margin-top: 10rem;
+    color: var(--white);
+}
+.form h4{
+    font-size: 2.5rem;
+}
+.form h2{
+    font-size: 2rem;
+}
+
+.full-width {
+    grid-column: 1 / 2;
+    font-size: 1.5rem;
+}
+
+button,
+.submit-btn,
+.form-input,
+textarea {
+    padding: 1em;
+}
+
+button,
+.submit-btn {
+    margin: 3rem 1rem;
+    background: var(--blue);
+    border: 1px solid var(--blue);
+    color: var(--white);
+    border-radius: 15px;
+    padding: 5px 20px;
+    text-transform: uppercase;
+}
+
+button:hover,
+.submit-btn:hover,
+button:focus,
+.submit-btn:focus {
+    background: var(--blue);
+    outline: 0;
+    color: #eee;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.error {
+    color: var(--blue);
+}
+
+@media (min-width: 600px) {
+    .contain {
+        padding: 0;
+    }
+}
